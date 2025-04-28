@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "ng serve --ssl --proxy-config src/proxy/proxy.conf.local.json --port=4200",
     "start:prod": "ng serve --ssl --proxy-config src/proxy/proxy.conf.prod.json --port=4200",
     "build": "ng build --optimization --vendor-chunk --output-path=../public --stats-json",
     "lint": "ng lint",
